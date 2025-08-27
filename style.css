@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.features {
+  margin: 20px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Web Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Interactive Web Page 🚀</h1>
+    <button id="toggleMessageBtn">Click Me!</button>
+    <p id="message" class="hidden">Hello! 🎉 You triggered an event.</p>
+    <section class="features">
+      <h2>Light/Dark Mode</h2>
+      <button id="themeToggle">Toggle Theme</button>
+    </section>
+
+    <section class="features">
+      <h2>Counter Game</h2>
+      <button id="incrementBtn">+1</button>
+      <p>Count: <span id="counter">0</span></p>
+    </section>
+
+    <section class="features">
+      <h2>FAQ</h2>
+      <button class="faq-toggle">What is JavaScript?</button>
+      <p class="faq hidden">
+        JavaScript is the language of interactivity on the web!
+      </p>
+    </section>
+
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+      <span class="error" id="nameError"></span>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" required />
+      <span class="error" id="emailError"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" required />
+      <span class="error" id="passwordError"></span>
+
+      <button type="submit">Submit</button>
+      <p id="formSuccess" class="success"></p>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
